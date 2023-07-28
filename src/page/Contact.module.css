@@ -1,0 +1,7 @@
+.contactbg{
+     background-image: url("../Asset/img/back.png");
+   background-position: center;
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    border: 1px solid white;
+}
