@@ -42,7 +42,7 @@ const Portfolio = () => {
               >
                 <div class="absolute inset-x-32  bottom-16 h-16">
                   <p
-                    class={`text-xl text-black font-bold ${styles.projectName}`}
+                    class={`text-xl mb-2 text-black font-bold ${styles.projectName}`}
                   >
                     Expense tracker Project
                   </p>
@@ -87,7 +87,7 @@ const Portfolio = () => {
               >
                 <div class="absolute inset-x-32  bottom-16 h-16">
                   <p
-                    class={`text-2xl text-black font-bold ${styles.projectName}`}
+                    class={`text-xl mb-2 text-black font-bold ${styles.projectName}`}
                   >
                     Mail Box Project
                   </p>
@@ -130,7 +130,7 @@ const Portfolio = () => {
               >
                 <div class="absolute inset-x-32  bottom-[100px] h-16">
                   <p
-                    class={`text-2xl text-black font-bold ${styles.projectName}`}
+                    class={`text-xl mb-2 text-black font-bold ${styles.projectName}`}
                   >
                     E-commerce App Project{" "}
                   </p>
@@ -173,7 +173,7 @@ const Portfolio = () => {
               >
                 <div class="absolute inset-x-32 bottom-[100px] h-16">
                   <p
-                    class={`text-2xl text-black font-bold ${styles.projectName}`}
+                    class={`text-xl mb-2 text-black font-bold ${styles.projectName}`}
                   >
                     Restaurant App Project
                   </p>
