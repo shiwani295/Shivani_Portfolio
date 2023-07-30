@@ -42,7 +42,7 @@ const Portfolio = () => {
               >
                 <div class="absolute inset-x-32  bottom-16 h-16">
                   <p
-                    class={`text-2xl text-black font-bold ${styles.projectName}`}
+                    class={`text-xl text-black font-bold ${styles.projectName}`}
                   >
                     Expense tracker Project
                   </p>
