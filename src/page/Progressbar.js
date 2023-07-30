@@ -20,7 +20,7 @@ const Progressbar = () => {
   const nextjs = "10%";
   return (
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-8 rounded-2xl bg-white mt-10 pl-10 py-10 "
+      class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-8 rounded-2xl bg-white mt-10 pl-10  py-10 "
       data-aos="fade-up"
       data-aos-duration="2000"
     >

@@ -67,7 +67,7 @@ const Contact = () => {
           <div>
             <label
               for="email"
-              className="block mb-2 text-sm font-medium text-black"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Your email
             </label>
@@ -83,7 +83,7 @@ const Contact = () => {
           <div>
             <label
               for="subject"
-              className="block mb-2 text-sm font-medium text-black"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Subject
             </label>
@@ -99,7 +99,7 @@ const Contact = () => {
           <div class="sm:col-span-2">
             <label
               for="message"
-              className="block mb-2 text-sm font-medium text-black"
+              className="block mb-2 text-sm font-medium text-white"
             >
               Your message
             </label>

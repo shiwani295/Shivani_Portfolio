@@ -27,9 +27,9 @@ const Header = () => {
           <div onClick={() => setOpen(!open)} className="md:hidden">
             <span className="">
               {open ? (
-                <AiOutlineClose className="text-3xl text-[#57ccc3]" />
+                <AiOutlineClose className="text-3xl text-[#3CC84F]" />
               ) : (
-                <AiOutlineMenu className="text-3xl text-[#57ccc3]" />
+                <AiOutlineMenu className="text-3xl text-[#3CC84F]" />
               )}
             </span>
           </div>
