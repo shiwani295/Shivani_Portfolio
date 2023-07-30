@@ -11,12 +11,12 @@ const Afterarrow = () => {
           src={Afterarrowcontent.part1}
           alt="afterarrow"
           className="lg:w-1/2  md:w-4/5"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="2000"
         />
       </div>
-      <div data-aos="fade-left" data-aos-duration="2000">
-        <p className="font-bold text-4xl pt-10 text-gray-800">
+      <div data-aos="fade-up" data-aos-duration="2000">
+        <p className="font-bold text-4xl pt-10 text-gray-800 mt-10">
           {Afterarrowcontent.part2uppertext}
           <span className="text-[#3CC84F]">
             {Afterarrowcontent.part2uppertextspan}

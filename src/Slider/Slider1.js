@@ -1,8 +1,8 @@
 import React from "react";
 import MyVideo from "../Asset/img/slider3.mp4";
 import { BiSolidDownload } from "react-icons/bi";
-import { sliderbtn, sliderResume } from "../content_option";
-import { sliderheader } from "../content_option";
+import { sliderbtn, sliderResume, sliderheader } from "../content_option";
+import {} from "../content_option";
 import { Link } from "react-router-dom";
 const Slider1 = () => {
   return (
@@ -53,7 +53,7 @@ const Slider1 = () => {
           data-aos-duration="3000"
           className="flex justify-center"
         >
-          <Link to={sliderResume} download="Shivani CV ">
+          <Link to={sliderResume} download="Shivani CV " target="_Blank">
             <button className=" flex mt-10  py-3 px-8 text-md font-bold text-center  text-black rounded-lg bg-[#3CC84F] shadow-2xl	 shadow-gray-700">
               Get Resume{" "}
               <span className="mt-1 ml-3">

@@ -14,18 +14,16 @@ const Skillhomepage = () => {
       <div className="max-w-full grid lg:grid-cols-2 md:grid-cols-1 shadow-lg p-4 drop-shadow-lg mx-auto relative mt-10 mb-10 gap-5 bg-gradient-to-r from-[#3CC84F] to-[#6f9574] ">
         <div
           className="flex justify-center items-center"
-          data-aos="fade-up-right"
+          data-aos="fade-up"
           data-aos-duration="2000"
         >
           <p className="text-2xl font-medium text-white">
             {skillhomepagecontent.text1} {skillhomepagecontent.text2}
           </p>
-
-          <p></p>
         </div>
         <div
           className="flex justify-center items-center "
-          data-aos="fade-up-left"
+          data-aos="fade-up"
           data-aos-duration="2000"
         >
           {skillhomepageimg_array.map((images) => {

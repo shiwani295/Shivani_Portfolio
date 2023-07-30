@@ -2,7 +2,7 @@ import React from "react";
 import { footer } from "../content_option";
 import { socialprofils } from "../content_option";
 import { Link } from "react-router-dom";
-import { FiFacebook, FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Footer = () => {
   let social = [
@@ -32,15 +32,6 @@ const Footer = () => {
         />
       ),
       link: `${socialprofils.instagram} `,
-    },
-    {
-      icon: (
-        <FiFacebook
-          className="w-[30px] h-[30px] p-1 mt-5 bg-white-200 text-black shadow-2xl"
-          target="_blank"
-        />
-      ),
-      link: `${socialprofils.facebook}`,
     },
   ];
   return (

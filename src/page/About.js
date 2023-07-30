@@ -23,8 +23,8 @@ const About = () => {
             <div
               className="slidertext mt-10 "
               data-aos="fade-up"
-              data-aos-easing="linear"
-              data-aos-duration="3000"
+              // data-aos-easing="linear"
+              data-aos-duration="2000"
             >
               <h3 className="font-semibold text-3xl text-white font-serif ">
                 A Bit About My Self
@@ -40,16 +40,16 @@ const About = () => {
 
             <div
               data-aos="fade-up"
-              data-aos-easing="linear"
-              data-aos-duration="3000"
+              // data-aos-easing="linear"
+              data-aos-duration="2000"
             >
-              <Link to={sliderResume} download="Shivani CV ">
-                <button className=" mt-10  py-3 px-8 text-md font-bold text-center text-white rounded-lg bg-[#3CC84F] shadow-2xl	 shadow-gray-700">
+              <Link to={sliderResume} download="Shivani CV " target="_Blank">
+                <button className=" mt-10  py-3 px-8 text-md font-bold text-center text-black rounded-lg bg-[#3CC84F] shadow-2xl	 shadow-gray-700">
                   Hire Me
                 </button>
               </Link>
               <Link to={"/contact"} className="ml-3">
-                <button className=" mt-10 py-3 px-8 text-md font-bold text-center text-white rounded-lg bg-[#3CC84F] shadow-2xl	 shadow-gray-700">
+                <button className=" mt-10 py-3 px-8 text-md font-bold text-center text-black rounded-lg bg-[#3CC84F] shadow-2xl	 shadow-gray-700">
                   Contact Me
                 </button>
               </Link>

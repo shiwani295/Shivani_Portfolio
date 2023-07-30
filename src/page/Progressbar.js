@@ -1,6 +1,6 @@
 import React from "react";
 import { aboutskill } from "../content_option";
-import { CircularProgressbar } from "react-circular-progressbar";
+// import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import {
   CircularProgressbarWithChildren,
@@ -22,7 +22,7 @@ const Progressbar = () => {
     <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-8 rounded-2xl bg-white mt-10 pl-10 py-10 "
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="2000"
     >
       <div
         class="p-4 flex items-center justify-center"

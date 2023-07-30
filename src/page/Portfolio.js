@@ -47,13 +47,15 @@ const Portfolio = () => {
                     Expense tracker Project
                   </p>
 
-                  {/* <Link
-                    class="px-2 py-1  text-sm text-white border border-white"
-                    to={"https://www.w3schools.com/css/css3_mediaqueries.asp"}
+                  <Link
+                    class="px-2 py-1 mr-3 text-sm text-black border font-bold border-black"
+                    to={
+                      "https://expense-tracker-redux-sbj1.vercel.app/my-expense"
+                    }
                     target="_blank"
                   >
                     Live Demo
-                  </Link> */}
+                  </Link>
                   <Link
                     className="px-8 py-1 text-sm font-bold text-black border border-black"
                     to={"https://github.com/shiwani295/expense-tracker-redux"}
@@ -73,7 +75,7 @@ const Portfolio = () => {
           >
             <div className="bg-[#3CC84F] group">
               <img
-                src={project.projectimg1}
+                src={project.projectimg2}
                 alt=" Mail Box"
                 className={`group-hover:opacity-0`}
               />
@@ -90,13 +92,13 @@ const Portfolio = () => {
                     Mail Box Project
                   </p>
 
-                  {/* <Link
-                    class="px-2 py-1  text-sm text-white border border-white"
-                    to={"https://www.w3schools.com/css/css3_mediaqueries.asp"}
+                  <Link
+                    class="px-2 py-1 mr-3  text-sm text-black border border-black font-bold"
+                    to={"https://mail-box-redux.vercel.app/"}
                     target="_blank"
                   >
                     Live Demo
-                  </Link> */}
+                  </Link>
                   <Link
                     className="px-8 py-1 text-sm font-bold text-black border border-black"
                     to={"https://github.com/shiwani295/MailBox_Redux"}
@@ -116,8 +118,8 @@ const Portfolio = () => {
           >
             <div className="bg-[#3CC84F] group">
               <img
-                src={project.projectimg1}
-                alt=" Restaurant App "
+                src={project.projectimg3}
+                alt=" E-commerce Project"
                 className={`group-hover:opacity-0`}
               />
               <div
@@ -130,19 +132,19 @@ const Portfolio = () => {
                   <p
                     class={`text-2xl text-black font-bold ${styles.projectName}`}
                   >
-                    Restaurant App Project{" "}
+                    E-commerce App Project{" "}
                   </p>
 
-                  {/* <Link
-                    class="px-2 py-1  text-sm text-white border border-white"
-                    to={"https://www.w3schools.com/css/css3_mediaqueries.asp"}
+                  <Link
+                    class="px-2 py-1  text-sm text-black border border-black font-bold mr-3"
+                    to={"https://e-commercewebsite25.netlify.app/login"}
                     target="_blank"
                   >
                     Live Demo
-                  </Link> */}
+                  </Link>
                   <Link
                     className=" px-8 py-1 text-sm font-bold text-black border border-black"
-                    to={"https://github.com/shiwani295/RestaurantWebsite"}
+                    to={"https://github.com/shiwani295/EcommerceWebsite"}
                     target="_blank"
                   >
                     Git
@@ -160,7 +162,7 @@ const Portfolio = () => {
             <div className="bg-[#3CC84F]  group">
               <img
                 src={project.projectimg4}
-                alt=" E-commerce Project"
+                alt="Restaurant App  Project"
                 className={`group-hover:opacity-0`}
               />
               <div
@@ -173,19 +175,19 @@ const Portfolio = () => {
                   <p
                     class={`text-2xl text-black font-bold ${styles.projectName}`}
                   >
-                    E-commerce Project
+                    Restaurant App Project
                   </p>
 
-                  {/* <Link
-                    className="px-2 py-1  text-sm text-white  border border-white"
-                    to={"https://e-commercewebsite25.netlify.app/login"}
+                  <Link
+                    className="px-2 py-1 mr-3 text-sm text-black border border-black font-bold"
+                    to={"https://restaurant-app-delta-sandy.vercel.app/"}
                     target="_blank"
                   >
                     Live Demo
-                  </Link> */}
+                  </Link>
                   <Link
                     className="px-8 py-1 text-sm font-bold text-black border border-black"
-                    to={"https://github.com/shiwani295/EcommerceWebsite"}
+                    to={"https://github.com/shiwani295/foodApp"}
                     target="_blank"
                   >
                     Git

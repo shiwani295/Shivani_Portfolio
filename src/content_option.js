@@ -20,9 +20,12 @@ import picuploadimg from "./Asset/whyhire/picupload.png";
 import registrationimg from "./Asset/whyhire/registration.png";
 import client1logoicon from "./Asset/Clientimg/sharpner.png";
 import client2logoicon from "./Asset/Clientimg/theoutrace.png";
-import resume from "./Asset/resume/Resume_April.pdf";
-import project1 from "./Asset/Portfolioimg/food.png";
-import project4 from "./Asset/Portfolioimg/Ecomweb.png";
+import resume from "./Asset/resume/CV-june.pdf";
+import project1 from "./Asset/Portfolioimg/Expense-Tracker.png";
+import project2 from "./Asset/Portfolioimg/mail-box.png";
+import project3 from "./Asset/Portfolioimg/Ecomweb.png";
+import project4 from "./Asset/Portfolioimg/food.png";
+
 const meta = {
   title: "Shivani Tiwari",
   description: "I’m ShivaniTIwari Front-end Developer _ Web developer",
@@ -31,10 +34,9 @@ const footer = {
   reserved: " © 2023 . All Rights Reserved",
 };
 const socialprofils = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
-  instagram: "https://instagram.com",
+  github: "https://github.com/shiwani295",
+  linkedin: "https://www.linkedin.com/in/shivani-tiwari-21b77a170/",
+  instagram: "https://www.instagram.com/coders__village/",
 };
 
 //slider
@@ -151,6 +153,8 @@ const project = {
   projectparagraph:
     "In my portfolio project built with React.js, I showcase my skills and accomplishments through an elegant and interactive user interface.",
   projectimg1: project1,
+  projectimg2: project2,
+  projectimg3: project3,
   projectimg4: project4,
 };
 

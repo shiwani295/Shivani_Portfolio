@@ -38,16 +38,18 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="py-8 md:py-10 lg:py-16 px-4 mx-auto max-w-screen-md relative">
-        <h2 className="z-auto inset-3 absolute mt-6 text-6xl tracking-tight  font-extrabold text-center text-[#302f2fbd]">
+      <div className="relative">
+        {" "}
+        <h2 className=" inset-3 absolute mt-6 text-6xl   font-extrabold text-center text-[#302f2fbd]">
           <span className="mr-3">CONTACT</span>US
         </h2>
-        <h2 className="z-0 inset-4 absolute mt-6  text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-dark">
+        <p className=" inset-4 absolute mt-6 text-4xl font-extrabold text-center text-gray-900 dark:text-dark">
           <span className=" text-[#3CC84F] mr-2">Contact</span>
           <span className="text-white">Us</span>
-        </h2>
-
-        <p className="mt-20 mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+        </p>
+      </div>
+      <div className="py-8 md:py-10 lg:py-16 px-4 mx-auto max-w-screen-md relative">
+        <p className="mt-20 mb-10 mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
           Got a technical issue?Are you want to Discuss your project ? Need
           details about me? Let me know.
         </p>
@@ -61,8 +63,6 @@ const Contact = () => {
         <form
           onSubmit={formHandler}
           className={`lg:space-y-8 p-5 rounded-lg ${styles.contactbg}`}
-          data-aos="fade-up"
-          data-aos-duration="2000"
         >
           <div>
             <label
@@ -75,7 +75,7 @@ const Contact = () => {
               type="email"
               id="email"
               ref={InputEmailref}
-              className="shadow-sm border border-gray-300 bg-[#f1f1f1] text-sm rounded-lg block w-full p-2.5   "
+              className="border border-gray-300 bg-[#f1f1f1] text-sm rounded-lg block w-full p-2.5   "
               placeholder="name@gmail.com"
               required
             />
